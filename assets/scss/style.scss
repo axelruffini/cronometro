@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: 5rem;
-    background-color: rgb(244, 244, 244);
+    background-color: #c8b6ff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -48,7 +48,7 @@ button:hover {
 
 button:active {
     letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
+    background-color: #5d18dc;
     color: hsl(0, 0%, 100%);
     box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
     transform: translateY(10px);
@@ -61,10 +61,10 @@ button:active {
     align-items: center;
     border-radius: 100%;
     justify-content: center;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: white;
     margin-top: 8%;
     margin-bottom: 3%;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    box-shadow: #5d18dc5c 0 0 80px;
 }

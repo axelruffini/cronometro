@@ -1,33 +1,70 @@
-html{
+html {
     scroll-behavior: smooth;
     scroll-padding: 5rem;
-    background: #22223b;
+    background-color: rgb(244, 244, 244);
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-    color: white;
-    margin-top: 250px;
-    font-size:xx-large;
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: 200;
 }
 
-h2{
-    color: white;
-    font-size:x-large;
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
 }
 
-button{
-    background-color: #4a4e69;
-    padding: 30px;
-    color: white;
-    border-style: none;
-    border-radius: 100px;
+
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
     margin: 10px;
-    font-size:large;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100%;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
 }
